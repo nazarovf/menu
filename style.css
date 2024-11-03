@@ -1,0 +1,28 @@
+/* style.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional background color */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.coba {
+    max-width: 100%; /* Limit the maximum width to 100% of the viewport */
+    max-height: 100vh; /* Limit the maximum height to the viewport height */
+    display: flex; /* Use flex to center the image */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+}
+
+.img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100vh; /* Limit the maximum height */
+    object-fit: contain; /* Scale the image to fit inside the container without cropping */
+    display: block; /* Remove inline space */
+}
